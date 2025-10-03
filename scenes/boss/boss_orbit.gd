@@ -10,7 +10,7 @@ var speed = initial_speed
 const initial_spawn_time = 0.2
 const final_spawn_time = 0.1
 
-var max_hp = 200
+var max_hp = 100
 var hp = max_hp setget set_hp
 
 const initial_max_bullets = 8

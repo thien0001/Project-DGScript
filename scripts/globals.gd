@@ -8,7 +8,7 @@ var unit_data = {
 }
 
 # player dưới dạng ảnh (Texture)
-var player = preload("res://assets/unit_blue.png")
+var player = preload("res://assets/yellaw_circle (1).png")
 var gun
 var world = 0
 
@@ -33,9 +33,9 @@ enum Level {FIGHT, BOSS}
 func level_name(level):
 	return Level.keys()[level]
 
-const yellow = Color("fcef8d")
+const yellow = Color("008001")
 const red = Color("3399ff")
-const blue = Color("6d80fa")
+const blue = Color("ffd633")
 const green = Color("ff0000")
 const pink = Color("ffd633")
 

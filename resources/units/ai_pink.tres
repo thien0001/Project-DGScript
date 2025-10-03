@@ -1,14 +1,14 @@
 [gd_resource type="Resource" load_steps=3 format=2]
 
 [ext_resource path="res://scenes/unit/unit_data.gd" type="Script" id=1]
-[ext_resource path="res://assets/yellaw_circle (1).png" type="Texture" id=2]
+[ext_resource path="res://assets/unit_green.png" type="Texture" id=2]
 
 [resource]
 script = ExtResource( 1 )
 player = false
 sprite = ExtResource( 2 )
 scale = 2.5
-max_hp = 6
+max_hp = 3
 vampirism = 0.0
 run_speed = 100
 dashes = true

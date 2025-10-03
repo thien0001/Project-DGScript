@@ -7,7 +7,7 @@
 script = ExtResource( 1 )
 player = false
 sprite = ExtResource( 2 )
-scale = 2.0
+scale = 3.0
 max_hp = 4
 vampirism = 0.0
 run_speed = 100

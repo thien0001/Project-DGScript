@@ -1,13 +1,13 @@
 [gd_resource type="Resource" load_steps=3 format=2]
 
 [ext_resource path="res://scenes/unit/unit_data.gd" type="Script" id=1]
-[ext_resource path="res://assets/unit_blue.png" type="Texture" id=2]
+[ext_resource path="res://assets/ywoKR9uZ_400x400.jpg" type="Texture" id=2]
 
 [resource]
 script = ExtResource( 1 )
 player = false
 sprite = ExtResource( 2 )
-scale = 0.1
+scale = 0.5
 max_hp = 50
 vampirism = 0.0
 run_speed = 100

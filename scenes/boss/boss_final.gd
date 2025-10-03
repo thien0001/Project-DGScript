@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var max_hp = 300
+var max_hp = 120
 var hp = max_hp setget set_hp
 
 const sweep_bullets = 6

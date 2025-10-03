@@ -31,14 +31,14 @@ func _ready() -> void:
 	Signals.connect("game_won", self, "on_game_won")
 
 func on_player_died(gpos):
-	$DeathText.text = "all is square in love and war...IloveAnoma"
+	$DeathText.text = "all is square in love and war...Zama"
 	$Again.text = "again?"
 	
 	just_died = true
 	player_ind = 3
 
 func on_game_won(gpos):
-	$DeathText.text = "all is square in war and love...IloveAnoma"
+	$DeathText.text = "all is square in war and love...Zama"
 	$Again.text = "congrats!"
 	just_died = true
 

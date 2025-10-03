@@ -312,14 +312,14 @@ func player_hp_changed(new):
 	elif diff < 0:
 		$PlayerHurtSound.play()
 		Signals.emit_signal("shake", 2)
-		Signals.emit_signal("message", global_position, hurt_messages[randi() % len(hurt_messages)], Color(1, 1, 1))
+		Signals.emit_signal("message", global_position, hurt_messages[randi() % len(hurt_messages)], Color(1, 1, 0))
 		set_collision_layer_bit(0, false)
 		set_collision_mask_bit(0, false)
 		$InvincibleTimer.start()
 		$BlinkTimer.start()
 		$Dust.emitting = false
 	elif diff > 0:
-		Signals.emit_signal("message", global_position, "+" + str(diff), Color(1, 1, 1))
+		Signals.emit_signal("message", global_position, "+" + str(diff), Color(1, 1, 0))
 	Signals.emit_signal("hp_changed", hp, data.max_hp)
 
 func tilt():

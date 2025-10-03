@@ -8,13 +8,13 @@
 [ext_resource path="res://assets/mini_player.png" type="Texture" id=6]
 [ext_resource path="res://resources/themes/theme.tres" type="Theme" id=7]
 [ext_resource path="res://assets/unit_purple.png" type="Texture" id=8]
-[ext_resource path="res://assets/unit_blue.png" type="Texture" id=9]
+[ext_resource path="res://assets/ywoKR9uZ_400x400.jpg" type="Texture" id=9]
 [ext_resource path="res://assets/unit_icon.png" type="Texture" id=10]
 [ext_resource path="res://assets/sounds/SLOW DOWN SPEED UP_05.wav" type="AudioStream" id=11]
 [ext_resource path="res://assets/sounds/WHOOSH_ARM_SWING_01.wav" type="AudioStream" id=12]
 [ext_resource path="res://assets/sounds/WHOOSH_AIRY_FLUTTER_01.wav" type="AudioStream" id=13]
 [ext_resource path="res://assets/sounds/Collectibles_3.wav" type="AudioStream" id=14]
-[ext_resource path="res://assets/logo.png" type="Texture" id=15]
+[ext_resource path="res://assets/20240319031117-399ce44c-158d-4c9b-9946-7b59c249ec6d-155.jpg" type="Texture" id=15]
 
 [sub_resource type="Animation" id=1]
 length = 0.001
@@ -575,19 +575,18 @@ align = 1
 valign = 1
 
 [node name="Logo" type="Sprite" parent="."]
-position = Vector2( 160, 64 )
-scale = Vector2( 0.95053, 0.749117 )
+position = Vector2( 160.645, 62.1857 )
+scale = Vector2( 0.0727414, 0.0577325 )
 texture = ExtResource( 15 )
 
 [node name="DeathText" type="Label" parent="."]
-margin_top = 96.0
-margin_right = 320.0
-margin_bottom = 120.0
+margin_left = -3.0
+margin_top = 117.0
+margin_right = 317.0
+margin_bottom = 148.0
 rect_min_size = Vector2( 320, 24 )
 theme = ExtResource( 7 )
 custom_colors/font_color = Color( 0.223529, 0.0352941, 0.278431, 1 )
-text = "all are equal in love and war...
-a game dedicated to everyone who loves ANOMA"
 align = 1
 valign = 1
 percent_visible = 0.0

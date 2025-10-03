@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var direction = Vector2.RIGHT
 const initial_speed = 0
-const final_speed = 150
+const final_speed = 80
 var speed = initial_speed
 
 const initial_spawn_time = 5
